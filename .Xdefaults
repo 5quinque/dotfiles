@@ -1,0 +1,54 @@
+Xft.autohint: 0
+Xft.antialias: 1
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.dpi: 96
+Xft.rgba: rgb
+Xft.lcdfilter: lcddefault
+
+URxvt*termName:rxvt-256color
+URxvt*transparent: true
+URxvt*depth: 32
+URxvt*shading: 10
+URxvt*saveLines: 12000
+!URxvt*font: -*-terminus-*-*-*-*-*-120-*-*-*-*-*-*
+urxvt*.font: xft:Terminus:size=12:antialias=false
+URxvt*scrollBar: false
+URxvt*scrollBar_right: false
+URxvt*borderLess:           false
+URxvt*inheritPixmap:        true
+URxvt.urlLauncher: firefox
+URxvt*geometry: 98x24
+URxvt.matcher.pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+Urxvt*perl-lib:    /usr/lib/urxvt/perl/
+URxvt.perl-ext-common: tabbed,default,matcher
+URxvt*matcher.button: 1                   /* match left-mouse-button */
+
+URxvt*background: #161616
+URxvt*foreground: #dddddd
+URxvt*cursorColor: #FDA53C
+
+!black
+*color0: #222222
+*color8: #666666
+!red
+*color1: #E84F4F
+*color9: #D23D3D
+!green
+*color2: #B7CE42
+*color10: #BDE077
+!yellow
+*color3: #FEA63C
+*color11: #FFE863
+!blue
+*color4: #66AABB
+*color12: #AACCBB
+!magenta
+*color5: #B7416E
+*color13: #E16A98
+!cyan
+*color6: #6D878D
+*color14: #42717B
+!white
+*color7: #DDDDDD
+*color15: #CCCCCC
